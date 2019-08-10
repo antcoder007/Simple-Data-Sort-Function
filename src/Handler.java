@@ -26,7 +26,7 @@ public class Handler implements ResultSetHandler<List<Object[]>> {
 				 * here we split/sort the data as per our needs
 				 * you can use regex here too and sort for whitespace
 				 * and other required symbols
-				 * Then we add the sorted data to a list as an object...
+				 * Then we add the sorted data to a list as an object array...
 				 */
 				for (String column_num : column_1.split(",")) {
 					newList.add(new Object[] { column_num.trim(), column_2, column_3 });
